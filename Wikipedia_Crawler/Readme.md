@@ -9,5 +9,5 @@ API used: Wikipedia(python)
 The code is written for python3 version
 
 Python3 modules to be installed:
-Spacy
+Spacy,
 Wikipedia
