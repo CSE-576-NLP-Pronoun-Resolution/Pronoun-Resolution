@@ -3,46 +3,7 @@ import csv
 import re
 import collections
 import spacy
-#print(wikipedia.summary("Python"))
-"""result = wikipedia.search("Nature")
-print(result)
-page = wikipedia.page(result[0])
-title = page.title
-content = page.content
-print(type(content))
-idx = content.find("== See also ==")
-content = content[0:idx]
-x = re.findall("==.*==.*", content)
-for s in x:
-	content = content.replace(s,"\n")
-content = content.replace("\n","")
-print(content)
-print(page.url)
-print(x)
-wikifile = open("wikipedia_db.csv",mode='w')
-wikiwriter = csv.writer(wikifile, delimiter=',')
-wikiwriter.writerow([content,page.url])
-print("==========================================================")
-print("Page Summary",page.summary,"\n")
-print("==========================================================")
-print("Page Title: ",title,"\n")
-print("==========================================================")
-print("Page Contents: ",content,"\n")
-print("==========================================================")
-links = page.links
-print("Page Links: ",links,"\n")
 
-page = wikipedia.page(links[0])
-title = page.title
-content = page.content
-print("==========================================================")
-print("Page Summary",page.summary,"\n")
-print("==========================================================")
-print("Page Title: ",title,"\n")
-print("==========================================================")
-print("Page Contents: ",content,"\n")
-print("==========================================================")
-print("Page Links: ",page.links,"\n")"""
 wikifile = open("wikipedia_db.csv",mode='a')
 def pagescrape(page):
 	title = page.title
@@ -60,7 +21,7 @@ def pagescrape(page):
 	for s in x:
 		content = content.replace(s,"")
 	content = content.replace("\n"," ")
-	#re.sub('\n+'," ",content)
+-
 	
 	x = re.findall("\s\s+", content)
 	for s in x:
@@ -138,7 +99,7 @@ def main():
 		print("===================================")
 		print("Number of Articles: ",i)
 		print("===================================")
-		if(i == 4):
+		if(i == 500):
 			break
 
 	MyFile=open('ExpandedList.txt','w')
