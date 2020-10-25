@@ -133,6 +133,8 @@ start_index = 0
 end_index = 2000
 
 filtered_sent = filter_sentences(input_file_path, start_index, end_index)
+filtered_sent.reset_index(drop=True, inplace=True)
+filtered_sent.drop_duplicates(inplace=True, subset=['sentence'])
 sent_df = pd.DataFrame(filtered_sent, columns=['sentence'])
 
 sent_df.to_csv(output_file_path)
