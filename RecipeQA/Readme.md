@@ -1,3 +1,5 @@
+<b>RecipeQA filtering</b>
+  
 Extract sentences from the RecipeQA dataset (https://hucvl.github.io/recipeqa/) and use adjustable filters to generate valid data for pronoun resolution.
 
 The following filters are used:
