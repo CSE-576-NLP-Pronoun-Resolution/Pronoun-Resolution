@@ -13,4 +13,4 @@ Other filters which were included for evaluation, but were not used for the fina
 - Use POS tagging to determine the location of the nouns and only collect sentences in which the two nouns are antecedents (appear before the pronoun)
 
 ## Running the code
-Download the RecipeQA train data. Set `input_file_path` to the path of the JSON file. Optionally, set `output_file_path` to the file in which you would like to save the filtered sentences.
+Download the RecipeQA train data. Set `input_file_path` to the path of the JSON file. Optionally, set `output_file_path` to the file in which you would like to save the filtered sentences. You may also change the portion of the dataset to filter by changing `start_index` and `end_index`.
