@@ -162,7 +162,7 @@ B) Context Based True Labelling for Pronoun - The code in RecipeQA_it_context_ch
 A) Recipe QA Dataset Analysis and Processing			- 
 - Collect sentences from the RecipeQA dataset and determine how stringent the filters should be for the data. 
 - There must be a balance between the strictness of the filters and the variation of the resulting data.
-- Loose filters will allow for more variation between the filtered sentences, but the QA model used to generate true labels may not be able to label corrent nouns as consistently.
+- Loose filters will allow for more variation between the filtered sentences, but the QA model used to generate true labels may not be able to label correct nouns as consistently.
 - On the other hand, strict filters will result in more consistently accurate true labels, but may cause the resulting data to be more homogenous. This could prevent our pronoun resolution model from learning enough information about the various cases in which pronouns could appear, causing the model to underfit.
 - Loose filters include:
 	- At least 3 noun phrases in the sentence
