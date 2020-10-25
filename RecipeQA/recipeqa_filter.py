@@ -129,8 +129,10 @@ def filter_sentences(file_path: str, start_index: int, end_index: int):
 
 input_file_path = 'recipeqa/train.json'
 output_file_path = 'output/recipeqa_filtered_sent.csv'
+start_index = 0
+end_index = 2000
 
-filtered_sent = filter_sentences(input_file_path, 0, 20)
+filtered_sent = filter_sentences(input_file_path, start_index, end_index)
 sent_df = pd.DataFrame(filtered_sent, columns=['sentence'])
 
 sent_df.to_csv(output_file_path)
