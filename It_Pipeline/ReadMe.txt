@@ -3,6 +3,8 @@ Context Based True Labelling for Pronoun
 Python3 code
 Modules:
 flair, deeppavlov, nltk, panda, json.
+The code is written in google colab:
+https://colab.research.google.com/drive/1XUK8Clj_LVtb76XjpOjICpNnpIKPMRba?usp=sharing
 
 The code in RecipeQA_it_context_check, finds the true labels based on the context of the text. Sentences with 'it' pronoun are filtered and given true labels using QA models and the context as information.
 
