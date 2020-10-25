@@ -1,5 +1,6 @@
-<b>RecipeQA filtering</b>
-  
+#RecipeQA filtering
+##Description
+
 Extract sentences from the RecipeQA dataset (https://hucvl.github.io/recipeqa/) and use adjustable filters to generate valid data for pronoun resolution.
 
 The following filters are used:
@@ -10,3 +11,6 @@ The following filters are used:
 Other filters which were included for evaluation, but were not used for the final synthetic data generation, are:
 - Only collect samples containing exactly three noun phrases
 - Use POS tagging to determine the location of the nouns and only collect sentences in which the two nouns are antecedents (appear before the pronoun)
+
+##Running the code
+Download the RecipeQA train data. Set `input_file_path` to the path of the JSON file. Optionally, set `output_file_path` to the file in which you would like to save the filtered sentences.
