@@ -121,7 +121,6 @@ def filter_sentences(file_path: str, start_index: int, end_index: int):
 
     # Save 'it' sentences to file
     it_sentences = []
-    # Replace 'filter3_sentences' with wiki_sentences if using wiki dataset
     for sent in filter3_sentences:
       if 'it' in sent.split():
         it_sentences.append(sent)
