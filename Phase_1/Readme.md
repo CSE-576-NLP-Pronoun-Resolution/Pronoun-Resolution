@@ -10,7 +10,7 @@ ________________________________________________________________________________
 
 Git repo -------> https://github.com/CSE-576-NLP-Pronoun-Resolution/Pronoun-Resolution/tree/master/Phase_1/NeuralCoref4_spaCy
 
-The collected dataset was validated using NeuralCoref 4.0 and its correctness of the dataset was approximated to 51%. To check if this percentage of correctness for an automated, it was also tested with google’s coreference model and that percentage of correctness was 31.4%. The error was mostly due to the presence of more than one pronoun referencing to multiple objects.
+The collected dataset was validated using NeuralCoref 4.0 and the quality of the dataset was gauged with respect to NeuralCoref 4.0. The accuracy for our dataset was approximately 51.53% while the same with Google's dataset was 31.45%. The error was mostly due to the presence of more than one pronoun referencing to multiple objects.
 The results included some false negatives by the NeuralCoref model such as in the CleanedDataset.csv file, refer to ID = 12, the pronoun 'he' refers to D'Annunzio, our dataset also has the correct coreference resolution. But the neuralcoref predicts 'he' refers to De. Which is a False Negative. 
 Another important issue analysed in this activity is that, the neuralcoref predicts too specific nouns. Example, refer to ID = 3, the noun 'he' refers to "young Norris" according to the neuralcoref model. An answer like "Norris" is not wrong, but less specific. It is not exactly a False Negative but a strict equals while comparing strings, would flag this as a false positive. 
 These are some issues analysed in the testing of neuralcoref model. 
@@ -54,6 +54,7 @@ All the models were tested with the GAP dataset to compare their performance. Ta
 
 ____________________________________________________________________________________________________________________________________
 
+# Overall Results of Various Models
 
 Table 2: Analysis with various models
 
