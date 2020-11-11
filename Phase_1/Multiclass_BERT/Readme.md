@@ -45,3 +45,16 @@ Before running `Multiclass_BERT.ipynb`:
 | macro avg| 0.3962 | 0.4010 | 0.3847 | 2000 |
 | weighted avg | 0.4647 | 0.4500 | 0.4414 | 2000 |
 
+<br>
+<br>
+
+**Table 3:** Test results on Winogrande dataset
+|  | precision | recall | f1-score | support | 
+|--|--|--|--|--|
+| 0 | 0.5003 | 0.5981 | 0.5449 | 1279 |
+| 1 | 0.4990 | .3847 | 0.4344 | 1279 |
+| 2 | 0.0000 | 0.0000 | 0.0000 | 0 |
+|  |  |  |  |  |
+| accuracy |  |  | 0.4914 | 2558 |
+| macro avg| 0.3331 | 0.3276 | 0.3264 | 2558 |
+| weighted avg | 0.4997 | 0.4914 | 0.4897 | 2558 |
