@@ -27,6 +27,11 @@ Table 1: Data Validation Results
 | Gap Dataset 	| 0.3145 	| 330.151 		| 0.459 	| 0.4275 	|
 
 
+- Dataset -> Dataset used according to the links given above
+- Accuracy -> Number of correctly resolved pronouns / Cardinal number in dataset
+- Pronoun Offset -> Average index position of pronoun in the context
+- Coref A -> Number of times coreference A returned true for the pronoun resolution
+- Coref B -> Number of times coreference B returned true for the pronoun resolution
 
 ____________________________________________________________________________________________________________________________________
 
