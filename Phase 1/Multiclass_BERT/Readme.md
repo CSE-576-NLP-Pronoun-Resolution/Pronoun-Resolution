@@ -11,7 +11,7 @@ When testing the model on our dataset, we used a 60%/20%/20% split for train, va
 
 ## Running the code
 
-Before running `Multiclass_BERT.ipynb`, download our dataset from [this link](https://github.com/CSE-576-NLP-Pronoun-Resolution/Pronoun-Resolution/blob/master/Dataset/Dataset.csv). For testing, also download the [GAP coreference test dataset](https://github.com/google-research-datasets/gap-coreference). In `Multiclass_BERT.ipynb`, edit the paths for label_df and gap_df so that they point to the location of their corresponing files.
+Before running `Multiclass_BERT.ipynb`, download our dataset from [this link](https://github.com/CSE-576-NLP-Pronoun-Resolution/Pronoun-Resolution/blob/master/Dataset/Dataset.csv). For testing, also download the [GAP coreference test dataset](https://github.com/google-research-datasets/gap-coreference). In `Multiclass_BERT.ipynb`, edit the paths for label_df and gap_df so that they point to the location of their corresponding files.
   
 ---  
 ## Results
