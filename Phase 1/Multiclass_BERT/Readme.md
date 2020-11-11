@@ -8,6 +8,10 @@ Before training the classifier, the training set is preprocessed and a label is 
 Then, the model is trained on this data. The `bert-base-cased` model was found to provide the best results. We used the cased model because for this task, casing may provide important information in the case of proper nouns.
 
 When testing the model on our dataset, we used a 60%/20%/20% split for train, validation, and test data. When testing on a separate dataset, we used a 80%/20% split on our dataset for train and validation data.
+
+## Running the code
+
+Before running `Multiclass_BERT.ipynb`, download our dataset from [this link](https://github.com/CSE-576-NLP-Pronoun-Resolution/Pronoun-Resolution/blob/master/Dataset/Dataset.csv). For testing, also download the [GAP coreference test dataset](https://github.com/google-research-datasets/gap-coreference). In `Multiclass_BERT.ipynb`, edit the paths for label_df and gap_df so that they point to the location of their corresponing files.
   
 ---  
 **Table 1:** Test results on our dataset
