@@ -23,8 +23,8 @@ Table 1: Data Validation Results
 
 | Dataset 	| Accuracy	| Pronoun Offset 	| Coref A 	| Coref B 	| 
 |---------------|---------------|-----------------------|---------------|---------------|
-| Our Dataset 	| 0.5153 	| 51.4352 		| 0.6616 	| 0.3383 	|
-| Gap Dataset 	| 0.3145 	| 330.151 		| 0.459 	| 0.4275 	|
+| Our Dataset 	| 51.53% 	| 51.4352 		| 66.16% 	| 33.83% 	|
+| Gap Dataset 	| 31.45% 	| 330.151 		| 45.9% 	| 42.75% 	|
 
 
 - Dataset -> Dataset used according to the links given above
