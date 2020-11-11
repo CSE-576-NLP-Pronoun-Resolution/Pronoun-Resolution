@@ -1,4 +1,4 @@
-# NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks.
+# NeuralCoref 4.0: Coreference Resolution in spaCy with Neural Networks
 
 To run the Coref_Analysis.ipynb, run each block separately. 
 - Copy files from git to Google Drive. 
