@@ -13,6 +13,7 @@ The model generated the following results:
 
 <br>
 **Table 1:** Test results 
+
 -----------------------------------------------------------------------------------------
 | Dataset 	| Accuracy	| Pronoun Offset 	| Coref A 	| Coref B 	| 
 |---------------|---------------|-----------------------|---------------|---------------|
