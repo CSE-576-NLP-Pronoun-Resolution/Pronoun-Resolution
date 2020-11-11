@@ -12,7 +12,7 @@ To run the Coref_Analysis.ipynb, run each block separately.
 The model generated the following results:
 
 <br>
-**Table 1:** Test results 
+# Table 1: Test results 
 
 -----------------------------------------------------------------------------------------
 | Dataset 	| Accuracy	| Pronoun Offset 	| Coref A 	| Coref B 	| 
