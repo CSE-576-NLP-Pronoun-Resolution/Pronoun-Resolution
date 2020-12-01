@@ -62,7 +62,7 @@ Before running `Multiclass_BERT.ipynb`:
 <br>
 <br>
 
-**Table 3:** Test results on Winograd Schema Challenge (WSC) dataset
+**Table 4:** Test results on Winograd Schema Challenge (WSC) dataset
 |  | precision | recall | f1-score | support | 
 |--|--|--|--|--|
 | 0 | 0.5071 | 0.7483 | 0.6045 | 143 |
